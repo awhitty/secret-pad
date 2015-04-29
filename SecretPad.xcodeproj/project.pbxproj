@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96262281AF187D40071D3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96262271AF187D40071D3DC /* AppDelegate.swift */; };
+		D962622A1AF187D40071D3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96262291AF187D40071D3DC /* ViewController.swift */; };
+		D962622D1AF187D40071D3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D962622B1AF187D40071D3DC /* Main.storyboard */; };
+		D962622F1AF187D40071D3DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D962622E1AF187D40071D3DC /* Images.xcassets */; };
+		D96262321AF187D40071D3DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96262301AF187D40071D3DC /* LaunchScreen.xib */; };
+		D962623E1AF187D40071D3DC /* SecretPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D962623D1AF187D40071D3DC /* SecretPadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96262381AF187D40071D3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D962621A1AF187D40071D3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96262211AF187D40071D3DC;
+			remoteInfo = SecretPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D96262221AF187D40071D3DC /* SecretPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96262261AF187D40071D3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96262271AF187D40071D3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96262291AF187D40071D3DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D962622C1AF187D40071D3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D962622E1AF187D40071D3DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D96262311AF187D40071D3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D96262371AF187D40071D3DC /* SecretPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D962623C1AF187D40071D3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D962623D1AF187D40071D3DC /* SecretPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretPadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D962621F1AF187D40071D3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96262341AF187D40071D3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D96262191AF187D40071D3DC = {
+			isa = PBXGroup;
+			children = (
+				D96262241AF187D40071D3DC /* SecretPad */,
+				D962623A1AF187D40071D3DC /* SecretPadTests */,
+				D96262231AF187D40071D3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96262231AF187D40071D3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96262221AF187D40071D3DC /* SecretPad.app */,
+				D96262371AF187D40071D3DC /* SecretPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96262241AF187D40071D3DC /* SecretPad */ = {
+			isa = PBXGroup;
+			children = (
+				D96262271AF187D40071D3DC /* AppDelegate.swift */,
+				D96262291AF187D40071D3DC /* ViewController.swift */,
+				D962622B1AF187D40071D3DC /* Main.storyboard */,
+				D962622E1AF187D40071D3DC /* Images.xcassets */,
+				D96262301AF187D40071D3DC /* LaunchScreen.xib */,
+				D96262251AF187D40071D3DC /* Supporting Files */,
+			);
+			path = SecretPad;
+			sourceTree = "<group>";
+		};
+		D96262251AF187D40071D3DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D96262261AF187D40071D3DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D962623A1AF187D40071D3DC /* SecretPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D962623D1AF187D40071D3DC /* SecretPadTests.swift */,
+				D962623B1AF187D40071D3DC /* Supporting Files */,
+			);
+			path = SecretPadTests;
+			sourceTree = "<group>";
+		};
+		D962623B1AF187D40071D3DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D962623C1AF187D40071D3DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D96262211AF187D40071D3DC /* SecretPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96262411AF187D40071D3DC /* Build configuration list for PBXNativeTarget "SecretPad" */;
+			buildPhases = (
+				D962621E1AF187D40071D3DC /* Sources */,
+				D962621F1AF187D40071D3DC /* Frameworks */,
+				D96262201AF187D40071D3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretPad;
+			productName = SecretPad;
+			productReference = D96262221AF187D40071D3DC /* SecretPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96262361AF187D40071D3DC /* SecretPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96262441AF187D40071D3DC /* Build configuration list for PBXNativeTarget "SecretPadTests" */;
+			buildPhases = (
+				D96262331AF187D40071D3DC /* Sources */,
+				D96262341AF187D40071D3DC /* Frameworks */,
+				D96262351AF187D40071D3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96262391AF187D40071D3DC /* PBXTargetDependency */,
+			);
+			name = SecretPadTests;
+			productName = SecretPadTests;
+			productReference = D96262371AF187D40071D3DC /* SecretPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D962621A1AF187D40071D3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Austin Whittier";
+				TargetAttributes = {
+					D96262211AF187D40071D3DC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D96262361AF187D40071D3DC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D96262211AF187D40071D3DC;
+					};
+				};
+			};
+			buildConfigurationList = D962621D1AF187D40071D3DC /* Build configuration list for PBXProject "SecretPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96262191AF187D40071D3DC;
+			productRefGroup = D96262231AF187D40071D3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D96262211AF187D40071D3DC /* SecretPad */,
+				D96262361AF187D40071D3DC /* SecretPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D96262201AF187D40071D3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D962622D1AF187D40071D3DC /* Main.storyboard in Resources */,
+				D96262321AF187D40071D3DC /* LaunchScreen.xib in Resources */,
+				D962622F1AF187D40071D3DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96262351AF187D40071D3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D962621E1AF187D40071D3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D962622A1AF187D40071D3DC /* ViewController.swift in Sources */,
+				D96262281AF187D40071D3DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96262331AF187D40071D3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D962623E1AF187D40071D3DC /* SecretPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96262391AF187D40071D3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96262211AF187D40071D3DC /* SecretPad */;
+			targetProxy = D96262381AF187D40071D3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D962622B1AF187D40071D3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D962622C1AF187D40071D3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D96262301AF187D40071D3DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96262311AF187D40071D3DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D962623F1AF187D40071D3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96262401AF187D40071D3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96262421AF187D40071D3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecretPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D96262431AF187D40071D3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecretPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D96262451AF187D40071D3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SecretPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretPad.app/SecretPad";
+			};
+			name = Debug;
+		};
+		D96262461AF187D40071D3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SecretPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretPad.app/SecretPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D962621D1AF187D40071D3DC /* Build configuration list for PBXProject "SecretPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D962623F1AF187D40071D3DC /* Debug */,
+				D96262401AF187D40071D3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96262411AF187D40071D3DC /* Build configuration list for PBXNativeTarget "SecretPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96262421AF187D40071D3DC /* Debug */,
+				D96262431AF187D40071D3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D96262441AF187D40071D3DC /* Build configuration list for PBXNativeTarget "SecretPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96262451AF187D40071D3DC /* Debug */,
+				D96262461AF187D40071D3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D962621A1AF187D40071D3DC /* Project object */;
+}
