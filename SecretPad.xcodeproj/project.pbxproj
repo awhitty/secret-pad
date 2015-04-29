@@ -13,6 +13,8 @@
 		D962622F1AF187D40071D3DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D962622E1AF187D40071D3DC /* Images.xcassets */; };
 		D96262321AF187D40071D3DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96262301AF187D40071D3DC /* LaunchScreen.xib */; };
 		D962623E1AF187D40071D3DC /* SecretPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D962623D1AF187D40071D3DC /* SecretPadTests.swift */; };
+		D96262481AF18D660071D3DC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D96262471AF18D660071D3DC /* Podfile */; };
+		D962624A1AF18D780071D3DC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D96262491AF18D780071D3DC /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D96262371AF187D40071D3DC /* SecretPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D962623C1AF187D40071D3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D962623D1AF187D40071D3DC /* SecretPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretPadTests.swift; sourceTree = "<group>"; };
+		D96262471AF18D660071D3DC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D96262491AF18D780071D3DC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		D96262191AF187D40071D3DC = {
 			isa = PBXGroup;
 			children = (
+				D96262491AF18D780071D3DC /* .gitignore */,
+				D96262471AF18D660071D3DC /* Podfile */,
 				D96262241AF187D40071D3DC /* SecretPad */,
 				D962623A1AF187D40071D3DC /* SecretPadTests */,
 				D96262231AF187D40071D3DC /* Products */,
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D962624A1AF18D780071D3DC /* .gitignore in Resources */,
 				D962622D1AF187D40071D3DC /* Main.storyboard in Resources */,
 				D96262321AF187D40071D3DC /* LaunchScreen.xib in Resources */,
+				D96262481AF18D660071D3DC /* Podfile in Resources */,
 				D962622F1AF187D40071D3DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				D96262431AF187D40071D3DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D96262441AF187D40071D3DC /* Build configuration list for PBXNativeTarget "SecretPadTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				D96262461AF187D40071D3DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
